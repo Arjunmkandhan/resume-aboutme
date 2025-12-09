@@ -1,0 +1,227 @@
+# for web dev : 
+# Ignore video files
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.wmv
+*.flv
+*.webm
+
+# Ignore audio files
+*.mp3
+*.wav
+*.aac
+*.ogg
+*.flac
+
+# Ignore large images or raw formats
+*.psd
+*.tiff
+*.raw
+
+# Ignore ZIP or archives (optional)
+*.zip
+*.rar
+*.7z
+
+# System/IDE files
+.DS_Store
+node_modules/
+dist/
+.vscode/
+# ------------------------------------------------------------------------------
+
+# 1. VS Code specific files
+# Ignore all files in the .vscode folder...
+.vscode/
+.idea/
+# ...BUT keep these files that are safe to share
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/c_cpp_properties.json
+
+# 2. C/C++ Build files
+# Directories
+build/
+bin/
+obj/
+Debug/
+Release/
+
+# Object files
+*.o
+*.obj
+*.slo
+*.lo
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Libraries
+*.a
+*.so
+*.lib
+*.dll
+*.dylib
+
+# Other generated files
+*.log
+*.map
+*.gcno
+*.gcda
+*.gcov
+
+# === 1. JetBrains (IntelliJ & CLion) ===
+# This is the most important part for JetBrains IDEs.
+# We ignore the entire .idea folder, which stores user-specific settings...
+.idea/
+
+# ...BUT, we "un-ignore" (whitelist) files that contain
+# shared project settings. This lets your team share
+# run configurations and code styles.
+!.idea/modules.xml
+!.idea/vcs.xml
+!.idea/runConfigurations/
+!.idea/codeStyles/
+!.idea/projectCodeStyle.xml
+!.idea/misc.xml
+
+# Module files. These are often user-specific, but some teams share them.
+# It's safest to ignore them by default.
+*.iml
+
+# === 2. Java (IntelliJ, Maven, Gradle) ===
+# Compiled class files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Default IntelliJ build output folder
+out/
+
+# Maven build output folder
+target/
+
+# Gradle build output folder
+build/
+.gradle/
+
+# Log files
+*.log
+hs_err_pid*
+
+# === 3. C++ (CLion & General) ===
+# CLion's default build folder
+cmake-build-*/
+
+# Compiled object files
+*.o
+*.obj
+
+# Precompiled headers
+*.gch
+*.pch
+
+# Static and dynamic libraries
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+
+#PYTHON FILES and projects settings 
+
+# Byte-compiled/optimized files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# C extensions
+*.so
+
+# Virtual environment
+# This is the most important one!
+venv/
+.venv/
+env/
+ENV/
+*.env
+
+# Secret files
+# Never commit secrets, API keys, or credentials
+*.env
+.env
+.env.*
+secrets.ini
+secrets.toml
+config.ini
+*.pem
+*.key
+
+# But DO track example files
+!*.env.example
+!secrets.example.ini
+
+# IDE and editor directories
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Build, distribution, and packaging
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+wheels/
+parts/
+bin/
+include/
+lib/
+lib64/
+sdist/
+develop-eggs/
+
+# Testing and coverage
+.pytest_cache/
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Framework-specific (e.g., Django/Flask)
+db.sqlite3
+*.sqlite3
+instance/
+media/
+
+# Log files
+*.log
+logs/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+Desktop.ini
+._*
+
