@@ -4,19 +4,42 @@
 <head>
     <title>My-Profile</title>
     <meta charset = "UTF-8" >
+    <style>
+        a {
+            text-decoration: none;
+            color: dodgerblue;
+        }
+        h1 {
+            font-family: sans-serif, "Arial Narrow";
+        }
+        .div-align {
+            justify-content: center;
+            text-align: center;
+
+        }
+    </style>
 </head>
 
 <body>
-    <header>
-            <h1>Profile</h1>
-            <nav>
-                <a href="index.html">Home</a> <span> | </span>
-                <a href="aboutme.html">About Me</a>
-            </nav>
-    </header>
-    <img src = "images/pic.jpg" alt = "Arjun M Kandhan" width = 200px title = "Arjun M Kandhan">
-    <p><b>Name : </b> Arjun M Kandhan</p>
-    <p><b>College : </b> Vellore Institute of Techonology</p>
+<header>
+    <h1 class = div-align>Profile</h1>
+    <div class = "div-align">
+        <nav>
+            <a href="index.html">Home</a> <span> | </span>
+            <a href="aboutme.html">About Me</a> <span> | </span>
+            <a href="contactme.html">Contact Me</a>
+        </nav>
+    </div>
+</header>
+<div class = "div-align" >
+<img src="images/pic.jpg" alt = "Arjun M Kandhan" width = 200px title = "Arjun M Kandhan">
+</div>
+<p class="div-align"><b>Name : </b> Arjun M Kandhan</p>
+<p class="div-align"><b>College : </b> Vellore Institute of Techonology</p>
+
+<p class = "div-align">Live a life you will Remember !! - <i title="Arjun the great">Arjun</i></p>
+
+
 </body>
 
 </html>
