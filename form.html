@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="form-style.css">
+</head>
+<body>
+
+    <h4>Enter User Details </h4>
+
+    <form action = "thankyou.html" method = "get" target = "_blank" autocomplete = "on">
+        <div>
+            <label for="fname">First Name: </label>
+            <input type = "text" id = "fname" name = "fname" minlength="4" maxlength="15" placeholder="Enter first name" required>
+        </div>
+        <div>
+            <label for = "lname"> Last Name : </label>
+            <input type = "text" id = "lname" name = "lname" minlength = "4" maxlength = "15" placeholder = "Enter last name" required>
+        </div>
+        <div>
+            <label for = "username">Username : </label>
+            <input type = "text" id = "username" name = "username" minlength = "5" maxlength="20" placeholder = "Enter username" required>
+        </div>
+        <div>
+            <label for = "dob">DOB : </label>
+            <input type = "date" id = "dob" name = "dob" required>
+        </div>
+        <div>
+            <label for="country">Choose Country</label>
+            <select id = "country" name = "country">
+            <option value="selct country">select country</option>
+            <option value="INDIA">India</option>
+            <option value="USA">USA</option>
+            <option value="United Kingdom">United Kingdom</option>
+            <option value="Russia">Russia</option>
+            </select>
+        </div>
+        <div>
+            <label for="state">Choose state</label>
+            <select id = "state" name = "state">
+                <option value="selct state">select state</option>
+                <option value="karnataka">karnataka</option>
+                <option value="Tamil Nadu">Tamil Nadu</option>
+                <option value="Kerala">Kerala</option>
+                <option value="Maharashtra">Maharastra</option>
+            </select>
+        </div>
+        <div>
+            <p>Gender : </p>
+            <input type = "radio" id = "male" name = "male" >
+            <label for="male">Male</label> <br>
+            <input type = "radio" id = "female" name = "female">
+            <label for = "female">Female</label> <br>
+            <input type = "radio" id = "transgender" name = "transgender">
+            <label for = "transgender">Transgender</label> <br>
+            <input type = "radio" id = "nope" name = "nope" >
+            <label for = "nope" > prefer not to say </label> <br>
+        </div>
+        <div>
+            <p>Upload Photo : </p>
+            <input type = "file" placeholder="Upload Photo" required >
+        </div>
+        <h5>Details required for Authenticaton : </h5>
+        <div>
+            <p>Upload Aadhaar Copy:</p>
+            <input type = "file" required>
+        </div>
+        <div>
+            <p>Upload PAN Card Copy: </p>
+            <input type="file" required >
+        </div>
+        <h5>Select Required Services :</h5>
+        <div>
+            <input type="checkbox" id = "room-service" name = "room-servicec" value = "Room-Service">
+            <label for = "Room-Service">Room Service</label> <br>
+            <input type="checkbox" id = "internet" name = "internet" value = "internet">
+            <label for = "internet">Internet/WIFI</label> <br>
+            <input type = "checkbox" id = "hair-plaza" name = "hair-plaza" value = "hair-plaza">
+            <label for = "hair-plaza"> Hair Plaza</label> <br>
+            <input type = "checkbox" id = "Body-massage" name = "Body-massage" value = "Body-massage">
+            <label for = "hair-plaza"> Full Body Massage</label> <br>
+            <input type = "checkbox" id = "Unlimited Drinks pass" name = "Unlimited Drinks pass" value = "Unlimited Drinks pass">
+            <label for = "hair-plaza"> Unlimited Drinks pass</label> <br>
+        </div>
+
+        <div>
+            <button class = "btn btn-primary">Submit response</button>
+            <button type = "reset">Reset Response</button>
+        </div>
+    </form>
+</body>
+</html>

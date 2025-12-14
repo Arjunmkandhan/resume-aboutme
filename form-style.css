@@ -1,0 +1,67 @@
+/*
+Font sizes :
+h1 / h2 / h3 / h4 / h5 / a / p
+47.78px / 39.81px / 33.18px / 27.65px / 23.04px / 13.33px / 16px
+
+--------COLORS--------
+Primary :  // on dominant elements
+    Tint :  #242735
+    Base :  #2D3142
+    Shade : #12141a
+Secondary : // to add varitey
+    Tint :  #3f4a5e
+    Base :  #4F5D75
+    Shade : #20252f
+Tertiary :  // further varitey
+    Tint :  #999a9a
+    Base :  #BFC0C0
+    Shade : #4c4d4d
+Grey :
+    Tint :  #cccccc
+    Base :  #999999
+    Shade : #666666
+*/
+
+h1 {
+    font-family: sans-serif;
+    font-size: 47.78px;
+    color: #2D3142;
+}
+h2 {
+    font-family: sans-serif;
+    font-size: 39.81px;
+    color: #2D3142;
+}
+h3 {
+    font-family: sans-serif;
+    font-size: 33.18px;
+    color: #2D3142;
+}
+h4 {
+    font-family: sans-serif;
+    font-size: 27.65px ;
+    color: #2D3142;
+}
+h5 {
+    font-family: sans-serif;
+    font-size: 23.04px ;
+    color: #2D3142;
+}
+a {
+    text-decoration: none;
+    font-size: 13.33px;
+    color: #20252f;
+}
+p {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #4F5D75;
+}
+
+.btn {
+    text-align : center;
+}
+.btn-primary {
+    color: #2D3142;
+}
+
